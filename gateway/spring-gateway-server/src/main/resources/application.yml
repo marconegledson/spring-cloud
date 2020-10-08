@@ -1,0 +1,13 @@
+server.port: 8080
+spring.application.name: spring-gateway-server
+
+nodes:
+  1:
+    uri: http://localhost:8081
+    ref: 1
+  2:
+    uri: http://localhost:8082
+    ref: 2
+  3:
+    uri: http://localhost:8083
+    ref: 3   

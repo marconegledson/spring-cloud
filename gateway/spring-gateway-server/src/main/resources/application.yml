@@ -1,5 +1,8 @@
 server.port: 8080
 spring.application.name: spring-gateway-server
+logging.level.web: TRACE
+logging.level.org.springframework.web: TRACE
+management.endpoints.web.exposure.include: gateway
 
 nodes:
   1:

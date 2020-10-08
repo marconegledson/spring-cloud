@@ -30,3 +30,7 @@ The following guides illustrate how to use some features concretely:
 * [Gateway 1](http://localhost:8080/message/consumer/1)
 * [Gateway 2](http://localhost:8080/message/consumer/2)
 * [Gateway 3](http://localhost:8080/message/consumer/3)
+
+### Actuator
+** References: https://cloud.spring.io/spring-cloud-gateway/2.1.x/multi/multi__actuator_api.html
+* [Gateway](http://localhost:8080/actuator/gateway/routes)

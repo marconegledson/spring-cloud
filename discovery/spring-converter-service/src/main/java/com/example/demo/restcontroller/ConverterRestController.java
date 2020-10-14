@@ -21,6 +21,13 @@ public class ConverterRestController {
 		double kelvin = restTemplate.getForObject("http://kelvin-service/kelvin/{value}", Double.class, value);
 		return MessageFormat.format("Valor em kelvin é {0} e em fahrenheit é {1}", kelvin, fahrenheit);
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		String fahrenheit = restTemplate.getForObject("http://fahrenheit-service/hello", String.class);
+		String kelvin = restTemplate.getForObject("http://kelvin-service/hello", String.class);
+		return MessageFormat.format("As instâncias retornadas sao kelvin: {0} e em fahrenheit: {1}", kelvin, fahrenheit);
+	}
 
 
 }

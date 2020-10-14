@@ -25,3 +25,4 @@ The following guides illustrate how to use some features concretely:
 
 ### Examples
 * [converter](http://host.docker.internal:9001/convert/890)
+* [load balancer](http://host.docker.internal:9001/hello)
